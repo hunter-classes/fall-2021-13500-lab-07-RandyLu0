@@ -1,5 +1,6 @@
 	#include <iostream>
 			using std::cout;
+		using std::endl;
 				int main(){
 			//Hello, Im' a program!
 	int x = 1;
