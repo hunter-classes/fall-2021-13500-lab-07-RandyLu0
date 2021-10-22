@@ -17,7 +17,6 @@ using std::ofstream;
 
 string removeLeadingSpaces(string line){
 	int s = line.size();
-	int b;
 	for (int i = 0; i < s; i++){
 		if(!isspace(line[i]))
 			return line.substr(i, s - i);
@@ -55,9 +54,7 @@ void indent(string file){
 		string line;
 		string indents = "";
 		getline(fin,line);
-		int s = 0;
-		if(countChar(line, '}'))
-			t--;
+        t -= countChar(line,'}');
 		for (int i = 0; i < t; ++i) {
 			indents += "\t";
 		}
