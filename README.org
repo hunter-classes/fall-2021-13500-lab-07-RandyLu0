@@ -6,7 +6,8 @@
 
 * GitHub username: RandyLu0
 
-* Notes: The unindent and indent functions work as specified in the lab
+* Notes:
+The unindent and indent functions work as specified in the lab
 but take the name of the file as parameters
 and write to unindent.cpp and indent.cpp respectively
 instead of printing to console.
