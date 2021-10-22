@@ -1,12 +1,15 @@
 * Fall 2021 - Lab 07
 
-* Last name:
+* Last name: Lu
 
-* First name:
+* First name: Randy
 
-* GitHub username:
+* GitHub username: RandyLu0
 
-* Notes:
+* Notes: The unindent and indent functions work as specified in the lab
+but take the name of the file as parameters
+and write to unindent.cpp and indent.cpp respectively
+instead of printing to console.
 
 
   
